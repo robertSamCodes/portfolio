@@ -1,6 +1,6 @@
 .landingScreen {
   display: flex;
-  padding: 5px 60px 5px 60px;
+  /* padding: 5px 60px 5px 60px; */
   text-align: left;
   width: 80vw;
   flex-wrap: wrap;

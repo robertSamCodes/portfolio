@@ -4,10 +4,10 @@ import "../Styles/funFact.css";
 
 const FunFact = () => {
   return (
-    <Paper className="funFact">
+    <Paper className="funFact" style={{ color: "#333" }}>
       <Typography
         variant="h5"
-        style={{ fontWeight: "bold", marginBottom: "5px", color: "#333" }}
+        style={{ fontWeight: "bold", marginBottom: "5px" }}
       >
         Did you Know??
       </Typography>

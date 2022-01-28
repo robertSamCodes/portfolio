@@ -7,7 +7,6 @@
 
 .services {
   display: flex;
-  padding: 5px 60px 5px 60px;
   flex-wrap: wrap;
   text-align: left;
   width: 80vw;
@@ -29,9 +28,6 @@
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  /* color: #303f9f; */
   color: #c51162;
-
   font-size: 40px;
-  /* border: 0.3px solid rgb(202, 198, 198); */
 }
