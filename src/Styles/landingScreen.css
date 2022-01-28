@@ -1,0 +1,52 @@
+.landingScreen {
+  display: flex;
+  padding: 5px 60px 5px 60px;
+  text-align: left;
+  width: 80vw;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.about_me {
+  font-size: 20px;
+  line-height: 3.75em;
+}
+
+.my_bio {
+  display: grid;
+  place-items: center;
+  margin: -20px auto;
+  min-height: 80vh;
+  width: 50%;
+}
+
+.my_logo {
+  width: 50%;
+}
+
+.my_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 105px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #c51162;
+  z-index: -200;
+}
+
+@media screen and (max-width: 768px) {
+  .my_bio {
+    width: 100%;
+  }
+
+  .my_logo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.project_container {
+  display: flex;
+  justify-content: space-around;
+  min-height: 300px;
+  width: 80vw;
+  margin: 20px auto;
+  background-color: #fefefe;
+  margin-bottom: 40px;
+}
+
+.image_container {
+  width: 50%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.description_container {
+  width: 50%;
+
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .project_container {
+    width: 90vw;
+    flex-wrap: wrap;
+  }
+  .image_container,
+  .description_container {
+    width: 100%;
+  }
+}
