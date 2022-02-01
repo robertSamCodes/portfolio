@@ -15,7 +15,7 @@ const Project = ({ number, image, description }) => {
         <Typography variant="h5" color="grey">
           {number}
         </Typography>
-        {description}
+        <Typography style={{ lineHeight: "1.75" }}>{description}</Typography>
         <br />
         <Box mt={2}>
           <Button variant="contained" color="primary">

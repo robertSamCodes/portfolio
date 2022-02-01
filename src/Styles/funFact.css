@@ -1,5 +1,6 @@
 .funFact {
   width: 80vw;
+  box-sizing: border-box;
   padding: 10px;
   margin: 10px auto;
 }

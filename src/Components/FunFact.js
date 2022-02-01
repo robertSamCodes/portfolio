@@ -3,17 +3,19 @@ import React from "react";
 import "../Styles/funFact.css";
 
 const FunFact = () => {
+  let time = 24;
+
   return (
-    <Paper className="funFact">
+    <Paper className="funFact" style={{ color: "#333" }}>
       <Typography
         variant="h5"
-        style={{ fontWeight: "bold", marginBottom: "5px", color: "#333" }}
+        style={{ fontWeight: "bold", marginBottom: "5px" }}
       >
         Did you Know??
       </Typography>
       <Typography>
-        This is the air I breathe in the garden of bla bla bla bla whatever has
-        to be heard needs to be said bla bla bla bla black sheep
+        My life is pretty simple and straightforward. I code, design and eat all
+        day. I have been coding for {time} seconds.
       </Typography>
     </Paper>
   );

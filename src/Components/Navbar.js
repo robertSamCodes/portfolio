@@ -1,16 +1,33 @@
 import "../Styles/appHeader.css";
 
 import React from "react";
-import { Button, Typography } from "@material-ui/core";
+import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const AppHeader = () => {
   return (
     <div className="appHeader">
-      <Typography style={{ fontWeight: "bold" }}>Logo</Typography>
-      <Typography style={{ fontWeight: "bold" }}>About</Typography>
-      <Typography style={{ fontWeight: "bold" }}>Hire Me</Typography>
+      <Button
+        href="/"
+        style={{ fontWeight: "bold", cursor: "pointer", color: "#303f9f" }}
+      >
+        Home
+      </Button>
+      <Button
+        href="/designs"
+        style={{ fontWeight: "bold", cursor: "pointer", color: "#303f9f" }}
+      >
+        Designs
+      </Button>
+      <Button
+        variant="text"
+        href="hire"
+        style={{ fontWeight: "bold", cursor: "pointer", color: "#303f9f" }}
+      >
+        Hire Me
+      </Button>
       <Button variant="contained" size="small" color="primary">
-        Contact
+        Call Now
       </Button>
     </div>
   );

@@ -1,0 +1,10 @@
+img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.designContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -9,11 +9,11 @@ import SamRobert from "../Assets/SamRobert.png";
 const LandingScreen = () => {
   const { text } = useTypewriter({
     words: [
-      "Front-end Developer",
+      "Front-End Developer",
       "UI/UX Designer",
       "Graphic Designer",
       "Video Editor",
-      "2D and 3D Animation Pro",
+      "2D&3D Animater",
     ],
     loop: 0,
   });
@@ -23,7 +23,7 @@ const LandingScreen = () => {
       <div className="my_bio">
         <Box mt={4}>
           <Typography variant="h4">
-            I'm <b style={{ color: "#333" }}>John Doe.</b>
+            I'm <b style={{ color: "#333" }}>Robert Sam.</b>
           </Typography>
           <Typography fontWeight="bold" variant="h5">
             I am a
@@ -43,10 +43,10 @@ const LandingScreen = () => {
                     fontSize: 18,
                   }}
                 >
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text evereap into electronic typesetting,
-                  remaining essentially und
+                  Hi, I'm Sam, a Frontend Developer (ReactJs), Graphic and UI/UX
+                  Designer . My job is to select, design and test the user
+                  interface elements of a website, focusing on the look and feel
+                  of the site, along with UX and its functionality.
                 </Typography>
               </div>
             )}
@@ -72,11 +72,11 @@ const LandingScreen = () => {
           </Box>
         </Box>
       </div>
-      <div className="my_logo">
-        <div className="logo_container">
-          <img src={SamRobert} alt="Robert" />
-        </div>
+      {/* <div className="my_logo"> */}
+      <div className="logo_container">
+        <img src={SamRobert} alt="Robert" className="my_picture" />
       </div>
+      {/* </div> */}
     </div>
   );
 };

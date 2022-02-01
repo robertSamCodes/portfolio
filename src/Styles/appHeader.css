@@ -1,12 +1,8 @@
 .appHeader {
   display: flex;
-  justify-content: space-around;
-  cursor: pointer;
-  align-items: center;
-  width: 100vw;
-  color: #303f9f;
+
   background-color: #f8fbfe;
-  height: 70px;
-  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); */
-  font-weight: bold;
+  color: #303f9f;
+  padding: 10px;
+  justify-content: space-around;
 }

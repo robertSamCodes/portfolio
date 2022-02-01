@@ -2,16 +2,17 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 10px;
+
+  width: 100vw;
 }
 
 .services {
   display: flex;
-  padding: 5px 60px 5px 60px;
   flex-wrap: wrap;
   text-align: left;
+  justify-content: center;
   width: 80vw;
-  margin: 60px auto;
+  margin: 75px auto;
   font-size: 20px;
   line-height: 1.75em;
 }
@@ -20,7 +21,7 @@
   width: 300px;
   padding: 15px;
   min-height: 350px;
-  margin: 20px 10px 20px 0;
+  margin: 20px 5px 20px 5px;
 }
 
 .icon_here {
@@ -29,9 +30,12 @@
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  /* color: #303f9f; */
   color: #c51162;
-
   font-size: 40px;
-  /* border: 0.3px solid rgb(202, 198, 198); */
+}
+
+@media screen and (max-width: 768) {
+  .service {
+    width: 300px;
+  }
 }
