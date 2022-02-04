@@ -3,7 +3,7 @@ import React from "react";
 import "../Styles/certificates.css";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
-const Certification = ({ course }) => {
+const Certification = ({ course, license }) => {
   return (
     <div className="certification_container">
       {/* <Typography variant="h5">Certifications</Typography> */}
@@ -15,7 +15,7 @@ const Certification = ({ course }) => {
           />
         </Typography>
         <Typography style={{ opacity: 0.5, marginTop: -20 }}>
-          Codecademy
+          {license || "Codecademy"}
         </Typography>
       </Paper>
     </div>

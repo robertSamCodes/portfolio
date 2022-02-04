@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer_container">
       <Box>
         <Typography> 055 3359 848/ 020 0022 942</Typography>
-        <Typography> PO Box 644 - Obuasi - Ghana</Typography>
+        <Typography> PO Box 644. Obuasi - Ghana</Typography>
         <Typography> robertksam2000@gmail.com</Typography>
 
         <Facebook style={social_media_icons} />
@@ -18,13 +18,11 @@ const Footer = () => {
         <LinkedIn style={social_media_icons} />
       </Box>
       <Box>
-
         <Typography>View Github Profile</Typography>
         <Typography>#AppDev # WebDev</Typography>
         <Typography>#Design # VideoEditor</Typography>
         <Typography>#Media # Animation</Typography>
         <Typography></Typography>
-
       </Box>
     </div>
   );

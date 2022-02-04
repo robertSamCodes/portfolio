@@ -1,56 +1,21 @@
 .landingScreen {
   display: flex;
-  /* padding: 5px 60px 5px 60px; */
-  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80vw;
-  flex-wrap: wrap;
-  margin: auto;
+  line-height: 1.75em;
+  margin: 0 auto;
+  /* background-color: rgb(70, 0, 128); */
+  font-size: 18px;
 }
 
-.about_me {
-  font-size: 20px;
-  line-height: 3.75em;
-}
+/* .my_bio {
+  background-color: greenyellow;
+} */
 
-.my_bio {
-  display: grid;
-  place-items: center;
-  margin: -20px auto;
-  min-height: 80vh;
-  width: 50%;
-}
-
-.my_logo {
-  width: 50%;
-}
-
-.my_logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 105px 0 10px 0;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  background-color: #c51162;
-  z-index: -200;
-}
-
-.my_picture {
-  width: 100vw;
-}
-
-@media screen and (max-width: 768px) {
-  .my_bio {
-    width: 100%;
-  }
-
-  .my_logo {
-    width: 100%;
-  }
+.logo {
+  width: 500px;
+  height: auto;
+  background-color: red;
 }

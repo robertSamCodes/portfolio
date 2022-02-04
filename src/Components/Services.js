@@ -82,10 +82,9 @@ const Services = () => {
         <Service
           icon={<VideoSettingsOutlined style={{ fontSize: 70 }} />}
           title="Video Editing"
-          service="Lorem ipsum dolor sit, amet consectetur 
-        adipisicing elit. Veniam aspernatur maxime velit ratione porro corrupti numquam provident delectus 
-        et officiis. Voluptatibus quis atque
-       mollitia tempore maiores ut veritatis libero suscipit?"
+          service="As a film/video editor, I manage material such as camera footage,
+            graphics and special effects to produce a final film 
+           or video product. With my finesse, I deliver on time, in a more professional format."
         />
         <Service
           icon={<AppSettingsAlt style={{ fontSize: 70 }} />}

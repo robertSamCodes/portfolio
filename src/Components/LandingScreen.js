@@ -72,11 +72,9 @@ const LandingScreen = () => {
           </Box>
         </Box>
       </div>
-      {/* <div className="my_logo"> */}
-      <div className="logo_container">
-        <img src={SamRobert} alt="Robert" className="my_picture" />
+      <div className="logo">
+        {/* <img src={SamRobert} alt="Robert" className="my_picture" /> */}
       </div>
-      {/* </div> */}
     </div>
   );
 };

@@ -9,9 +9,7 @@
 
 .certification_container {
   display: flex;
-
   box-sizing: border-box;
-
   text-align: left;
   width: 80vw;
   margin: 60px auto;

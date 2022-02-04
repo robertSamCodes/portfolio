@@ -26,7 +26,12 @@ const AppHeader = () => {
       >
         Hire Me
       </Button>
-      <Button variant="contained" size="small" color="primary">
+      <Button
+        href="tel:+233553359848"
+        variant="contained"
+        size="small"
+        color="primary"
+      >
         Call Now
       </Button>
     </div>

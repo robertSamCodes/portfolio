@@ -24,6 +24,7 @@ const Certifications = () => {
       <Certification course="TypeScript" />
       <Certification course="Python 3" />
       <Certification course="Bash Scripting" />
+      <Certification course="UX Fundamentals" license="Gymnasium" />
     </div>
   );
 };
