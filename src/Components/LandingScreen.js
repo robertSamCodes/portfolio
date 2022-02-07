@@ -23,7 +23,7 @@ const LandingScreen = () => {
       <div className="my_bio">
         <Box mt={4}>
           <Typography variant="h4">
-            I'm <b style={{ color: "#333" }}>Robert Sam.</b>
+            I'm <b style={{ color: "#333" }}>John Doe.</b>
           </Typography>
           <Typography fontWeight="bold" variant="h5">
             I am a
@@ -72,8 +72,8 @@ const LandingScreen = () => {
           </Box>
         </Box>
       </div>
-      <div className="logo">
-        {/* <img src={SamRobert} alt="Robert" className="my_picture" /> */}
+      <div className="picture_container">
+        <img src={SamRobert} alt="Sam" className="picture" />
       </div>
     </div>
   );

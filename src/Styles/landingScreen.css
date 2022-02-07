@@ -6,16 +6,34 @@
   width: 80vw;
   line-height: 1.75em;
   margin: 0 auto;
-  /* background-color: rgb(70, 0, 128); */
   font-size: 18px;
 }
 
-/* .my_bio {
-  background-color: greenyellow;
-} */
-
-.logo {
-  width: 500px;
+.picture {
+  width: 100vw;
+  margin: 20px auto;
   height: auto;
-  background-color: red;
+}
+
+@media screen and (min-width: 769px) {
+  .landingScreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 80vw;
+    line-height: 1.75em;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .my_bio {
+    width: 40vw;
+  }
+
+  .picture {
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+  }
 }
